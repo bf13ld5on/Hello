@@ -7,8 +7,8 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="21639756"
-MD5="89c253d450245dcd9bab3843c01caf90"
+CRCsum="2836122542"
+MD5="3c6efc9fccb05930fa56c4669c074d5a"
 SHA="0000000000000000000000000000000000000000000000000000000000000000"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=''
 targetdir="obfuscated"
-filesizes="399"
-totalsize="399"
+filesizes="398"
+totalsize="398"
 keep="n"
 nooverwrite="n"
 quiet="n"
@@ -376,11 +376,11 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Mon Dec 16 10:02:09 CET 2024
+	echo Date of packaging: Mon Dec 16 11:28:03 CET 2024
 	echo Built with Makeself version 2.4.5
 	echo Build command was: "/usr/bin/makeself \\
     \"./obfuscated\" \\
-    \"hello_obf.sh\" \\
+    \"hello_o.sh\" \\
     \"My script\" \\
     \"./hello.sh\""
 	if test x"$script" != x; then
@@ -711,4 +711,7 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ ‘ì_gíÒMOÛ@`ŸùC8"Ò$Ø18DµANQ!€à¶YñÒx×ÝÚDýñ]›–öÄ©­„ô>—YïŽýŽ-÷ßU¼^›¾«’fåYÖÖažþ¬lœ&Ã4åù8KÇ±o8Š	’ÿ 8/l%8¶¯÷½~þó]^ê±G‹J9zPk¦X9U7q]rmœ·Â+£É<gç•^‘fÿÕØÏÔ¨'Ómx–•V_»>Í|û¥=ë’Kò†–LVè¸E“¢ ©¬uüàZ²kÛÝÅ0ùŠIkYz2Á7Áw¹q·±feEÝßÙ£Ë u—ÚÝ(–Ü6-…«~uÑí,&}¼XP%lMBoÈmœçx{œÔÐ¦Þ‡ö—§éZ„’ijê˜Å–®Óih·÷»³7Ku¼Ó‰W“ýs5yº3*/åôèÛÅbæ‹»´x<‹u¶)¶gÛùV®æ§i=ÿtrÒ£ïít<Né |^W;	                 À_ðZÛ- (  
+‹ ³ `gíÒMOÛ@`ŸùÓpD¤ùp’öÀ!
+Udi«rÛ¬‡xi¼köƒ–¨?ž]mOœÚJHïs™Ñìxgl¹ÿºæíÖô]ý3ƒh6™¤8œMÆÎdšgÃ|6Nù0æƒáh:g4Èþƒà¼°q•àØ>ß÷üùã»üŠ/Ä>­jåèJm™bäTÓÆ¼âÆ8o…WF“¹"ÏÎ+½!Íþ»±ß¨U·¦+x–µV7]Ÿ–>Ý¡´g]qEÞÐšÉ
+K4/
+’ÊÊÐÄ®%»tœ¦èn“¯™¤±–¥'||77V[k6V4ý½}:ZwSÓÒ­bÉ©i-\ýÔE_–qÒÇÓÕÂ6$ô¹;ç9>75t¨©÷!ýò´ØŠP1-Lg±¥OŽé8.ôª÷»³´kõv's/.æ'j~{ùþó¨Ÿ_ËÅ›§«e(W_óâºŒQŽ‹Ý»]¹“›ò8oÊ³££ýLÛñ4§Ãê!¯÷2                 €¿à:/> (  
